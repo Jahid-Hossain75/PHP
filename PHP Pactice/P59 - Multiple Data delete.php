@@ -87,9 +87,3 @@
 
 </body>
 </html>
-
-
-<!-- <td>
-<a href='P50 - CRUD Edit.php?editid=$id'><input type='button' value='Edit' class='btn btn-success'></a>
-<a href='P50 - CRUD-2.php?deleteid=$id'><input type='button' value='Delete' class='btn btn-danger'></a>
-</td> -->
