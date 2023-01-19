@@ -1,0 +1,331 @@
+/* google fonts -- import */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1e21;
+}
+
+.section-title h2 {
+  text-shadow: 1px 1px 2px #444;
+}
+
+/*========= Header section start ==========*/
+header nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.search-form {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.search-form input {
+  border-radius: 50px;
+}
+
+button.search-btn {
+  border-radius: 50px;
+  padding: 7px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--bs-orange);
+  border: 0;
+  color: #fff;
+}
+
+.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 16px;
+}
+/*========= Header section end ==========*/
+
+
+
+
+
+
+/*========= Slider section start ==========*/
+section.slider {
+  background: #f7f7f7;
+  padding-top: 64px;
+  height: 566px;
+}
+
+.slider-text h2 {
+  font-size: 68px;
+  font-weight: 600;
+  padding-top: 28px;
+}
+
+.slider-text h2 span {
+  color: orange;
+}
+
+.slider-image img {
+  height: 400px;
+  object-fit: contain;
+}
+
+.slider-text p {
+  font-size: 16px;
+  color: #4a4949cc;
+  padding: 16px 0px;
+}
+
+.slider-text a {
+  font-size: 18px;
+  background: #e0b0577d;
+  padding: 10px 50px;
+  border-radius: 50px;
+  color: #ff7400;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.slider-text a:hover {
+  /* background: #c7a360; */
+  box-shadow: 0px 0px 3px 0px rgba(142, 142, 142, 0.609);
+}
+/*========= Slider section end ==========*/
+
+
+
+
+
+
+/*========= Category Product section start ==========*/
+.category-product {
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
+
+.category-product .card {
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.category-product .card-body img {
+  height: 150px;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+
+.category-product .row .card-body h4 {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #ddd;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.category-product .row .card-body a.view-all-btn {
+  font-size: 17px;
+  text-align: center;
+  padding: 7px 30px;
+  border-radius: 50px;
+  background: var(--bs-success);
+  color: #fff;
+  margin: 15px auto;
+  transition: all 0.4s ease;
+}
+
+.category-product .row .card-body a.view-all-btn:hover {
+  background: #39ac76;
+  transition: all 0.4s ease;
+}
+
+.category-product .card:hover .card-body img {
+  transform: scale(1.2);
+}
+/*========= Category Product section end ==========*/
+
+
+
+
+
+
+/*========= Baner section start ==========*/
+section.baner {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.baner .row .col-lg-6 .item {
+  background: #ccc;
+  padding: 22px;
+  justify-content: space-between;
+}
+
+.baner .row .col-lg-6 .item .text {
+  width: 209px;
+}
+
+.baner .row .col-lg-6 .item .text h2 {
+  font-size: 36px;
+  line-height: 59px;
+  text-shadow: 1px 1px 1px #4444;
+}
+
+.baner .row .col-lg-6 .item .text a.order-now {
+  font-size: 17px;
+  text-align: center;
+  padding: 6px 25px;
+  border-radius: 50px;
+  background: var(--bs-success);
+  color: #fff;
+  /* margin: 10px 0 20px 0; */
+  transition: all 0.4s ease;
+}
+
+.baner .row .col-lg-6 .item .text a.order-now:hover {
+  background: #39ac76;
+  transition: all 0.4s ease;
+}
+
+.baner .row .col-lg-6 .item img {
+  /* margin-right: 10px; */
+  height: 185px;
+  object-fit: cover;
+}
+
+.baner .row .col-lg-6 .item img.baner_img_2 {
+  margin-right: 65px;
+}
+/*========= Baner section end==========*/
+
+
+
+
+
+
+/*========= Latest Product section start ==========*/
+.latest-product {
+  background: #f7f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.latest-head-text h2 {
+  font-weight: 500;
+}
+
+.latest-product .col-lg-3 .card {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.latest-product .col-lg-3 .card img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  object-fit: contain;
+  transition: all 0.6s ease;
+}
+
+.latest-product .col-lg-3 .card .card-title {
+  font-size: 18px;
+  padding: 10px 0 15px;
+}
+
+.latest-product .col-lg-3 .card .card-text {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.latest-product .col-lg-3 .card .btn-fotter {
+  display: flex;
+  justify-content: space-between;
+  line-height: 34px;
+}
+
+.latest-product .col-lg-3 .card .btn-fotter a.btn {
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 50px;
+  color: var(--bs-success);
+  border: 1px solid #198754;
+  transition: all 0.4s ease;
+}
+
+.latest-product .col-lg-3 .card .btn-fotter a.btn:hover {
+  background: #39ac76;
+  color: #fff;
+}
+
+.latest-product .col-lg-3 .card .btn-fotter span i {
+  color: #198754;
+}
+
+.latest-product .col-lg-3 .card .btn-fotter a.btn i {
+  margin-right: 6px;
+}
+
+.latest-product .col-lg-3 .card:hover img {
+  transform: scale(1.2);
+}
+/*========= Latest Product section end ==========*/
+
+
+
+
+
+
+/*========= Banner_2 section Start ==========*/
+.banner_2 img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+h1.promo-title {
+  font-size: 53px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  width: 321px;
+  font-weight: 700;
+  color: #198754;
+}
+/*========= Banner_2 section end ==========*/
+
+
+
+
+
+
+
+/*========= Footer section start ==========*/
+ul.footer-list {
+  margin: 0;
+  padding: 0px 20px;
+}
+
+li a {
+  transition: .6s;
+}
+
+li a:hover {
+  color: #0f5132;
+  padding-left: 7px;
+}
+/*========= Footer section end ==========*/
+

@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(Image/March-12-Letter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.login_wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3)
+}
+.form::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 95px;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.12);
+    transform: skewX(-29.5deg);
+    border-radius: 10px;
+    pointer-events: none;
+}
+.fa-user-tie{
+    position: absolute;
+    top: -24px;
+    left: 43%;
+    width: 50px;
+    height: 50px;
+    font-size: 38px;
+    background: #f8f8f847;
+    border-radius: 50%;
+    text-align: center;
+    color: #00b8ff;
+    padding-top: 4px;
+}
+.form .h2login{
+    display: inline-block;
+}
+.signup_form{
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ddd;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    right: 40px;
+    transition: .3s;
+}
+.signup_form:hover{
+    color: #ff652f;
+}
+.form h3{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #ff652f;
+    font-size: 25px;
+    font-weight: 600;
+}
+.form a{
+    text-decoration: none;
+}
+.form .input_group{
+    position: relative;
+}
+.form .input_group input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: inherit;
+}
+.form .input_group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+}
+.form .input_group input:focus + label,
+.form .input_group input:valid + label{
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+}
+.submit_btn{
+    display: block;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    background: #ff652f;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.submit_btn:hover{
+    color: #ddd;
+}
+.forgot_pw{
+    color: inherit;
+    transition: .3s;
+    display: block;
+}
+.forgot_pw:hover{
+    color: #ff652f;
+}
+.error{
+    color: #ff652f !important;
+    text-align: center;
+}
+#forgot_pw .form::before{
+    transform: skewX(-38deg);
+}
+#forgot_pw{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: #fff;
+    opacity: 0;
+    transition: 0.6s;
+}
+#forgot_pw:target{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(Image/March-12-Letter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 1;
+}
+.close{
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: inherit;
+}
+.close:hover{
+    color: #ff652f;
+}
+#signup_r .form::before{
+    transform: skewX(-22deg);
+}
+#signup_r{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: #fff;
+    opacity: 0;
+    transition: 0.6s;
+}
+#signup_r:target{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(Image/March-12-Letter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 1;
+}
+/*****===
+.sign_close{
+    margin-left: 12px;
+    padding: 3px 5px;
+    background: #a97920cc;
+    color: #fff;
+    border-radius: 4px;
+}
+=====******/
+
