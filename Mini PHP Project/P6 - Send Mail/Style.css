@@ -1,0 +1,16 @@
+body{
+    background: #ddd;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin: 0;
+    padding: 1px 0px;
+    background: #33FFC1;
+    text-align: center;
+}
+.table{
+    padding: 10px;
+    margin: 5px;
+    width: 40% !important;
+}
